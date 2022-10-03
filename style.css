@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+#centralizar , #conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(39, 43, 41);
+  padding-bottom: 15px;
+  margin-bottom: 6px;
+}
+
+#pixel-board {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#title {
+  color: aliceblue;
+  padding: 5px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  margin-left: 3px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#painel-user {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.alinhar {
+  flex-direction: row;
+  margin: 5px;
+}
+
+#board-size {
+  height: 30px;
+  width: 70px;
+  flex-wrap: wrap;
+}
+
+.limpar {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
